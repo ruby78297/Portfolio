@@ -8,10 +8,7 @@ const Hero = () => {
     
   return (
     <section id="home" className="d-flex align-items-center vh-100 text-white bg-dark"   style={{
-        backgroundImage: `url('bgBlack.jpg')`, // Change the URL to your image's path
-        backgroundSize: 'cover', // Ensures the image covers the entire section
-        backgroundPosition: 'center center', // Centers the background image
-        backgroundAttachment: 'fixed', // Keeps the background fixed when scrolling
+
         color: 'black', // Optional: If you want to make sure text is white for better contrast
       }}>
       <Container className="text-center" data-aos="fade-up">

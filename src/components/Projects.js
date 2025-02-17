@@ -27,7 +27,7 @@ const projects = [
     title: "Girnarsoft | 2024",
     description:
       "Girnarsoft’s website offers a modern design with intuitive navigation and responsive layouts. It utilizes the latest web technologies and UI/UX best practices to deliver an optimized user experience across all devices.",
-    link: "/https://girnarsoft-web.vercel.app/",
+    link: "https://girnarsoft-web.vercel.app/",
     image: "/girnarsoft.png",
   },
   {
