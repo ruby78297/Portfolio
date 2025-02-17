@@ -20,7 +20,7 @@ const Hero = () => {
           {/* Download Resume Button */}
           <Button
             variant="info"
-            href="/myresume.pdf"  
+            href="/Ruby_Devi_Resume.pdf"  
             download="Ruby_Devi_Resume.pdf"
             className="mx-2"
           >
