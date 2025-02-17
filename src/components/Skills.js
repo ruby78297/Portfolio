@@ -169,7 +169,9 @@ const Skills = () => {
       className="py-5"
       style={{ backgroundColor: "black" }}
     >
-      <Container>
+      <Container data-aos="fade-up"
+     
+     >
         <h2
           className="text-center mb-5"
           style={{ color: "white", fontSize: "2.5rem", fontWeight: "bold" }}

@@ -9,11 +9,11 @@ const MyNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#home" style={{fontSize:"1.2rem"}}>Home</Nav.Link>
+            <Nav.Link href="#about" style={{fontSize:"1.2rem"}}>About</Nav.Link>
+            <Nav.Link href="#skills" style={{fontSize:"1.2rem"}}>Skills</Nav.Link>
+            <Nav.Link href="#projects" style={{fontSize:"1.2rem"}}>Projects</Nav.Link>
+            <Nav.Link href="#contact" style={{fontSize:"1.2rem"}}>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

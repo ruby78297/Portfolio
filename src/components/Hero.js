@@ -1,30 +1,45 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
-import { FaDownload } from "react-icons/fa"; // Import the download icon
-
+import { FaDownload } from "react-icons/fa";
+import "../../src/Skills.css";
+import "aos/dist/aos.css"; // Import AOS styles
+import Aos from "aos";
 const Hero = () => {
+    
   return (
-    <section id="home" className="d-flex align-items-center vh-100 text-white bg-dark">
-      <Container className="text-center">
-        <h1>
-          Hello, I'm <span className="text-info">Ruby Devi</span>
+    <section id="home" className="d-flex align-items-center vh-100 text-white bg-dark"   style={{
+        backgroundImage: `url('bgBlack.jpg')`, // Change the URL to your image's path
+        backgroundSize: 'cover', // Ensures the image covers the entire section
+        backgroundPosition: 'center center', // Centers the background image
+        backgroundAttachment: 'fixed', // Keeps the background fixed when scrolling
+        color: 'white', // Optional: If you want to make sure text is white for better contrast
+      }}>
+      <Container className="text-center" data-aos="fade-up">
+        <h1 data-aos="fade-right">
+          Hello, I'm <span className="text-info" data-aos="fade-left">Ruby Devi</span>
         </h1>
         <h2>Frontend Developer | React Enthusiast</h2>
-        
-        {/* Buttons with spacing */}
-        <div className="mt-3">
-          <Button variant="info" href="#projects" className="mx-2">
+
+       
+        <div className="d-flex flex-column flex-lg-row justify-content-center gap-3 mt-3">
+          <Button 
+            variant="info" 
+            href="#projects" 
+                      className=" mb-2 mb-lg-0 btn-dw"
+                      data-aos="fade-right"
+          >
             View My Work
           </Button>
+
           
-          {/* Download Resume Button */}
           <Button
             variant="info"
-            href="/Ruby_Devi_Resume.pdf"  
+            href="/Ruby_Devi_Resume.pdf" 
             download="Ruby_Devi_Resume.pdf"
-            className="mx-2"
+                      className=" d-flex align-items-center justify-content-center btn-dw"
+                      data-aos="fade-left"
           >
-            <FaDownload className="me-2" /> 
+            <FaDownload className="me-2" />
             Download Resume
           </Button>
         </div>

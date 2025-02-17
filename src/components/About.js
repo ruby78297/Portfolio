@@ -5,10 +5,10 @@ import { FaCode, FaProjectDiagram, FaTools } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="py-5 bg-light">
-      <Container>
+      <Container data-aos="fade-left">
         <h2  className="text-center mb-5"
           style={{ color: "black", fontSize: "2.5rem", fontWeight: "bold" }}>About Me</h2>
-        <Row className="align-items-center">
+        <Row className="align-items-center" data-aos="fade-left">
           
           <Col md={6} className="text-center text-md-start ">
             <h3 className="text-primary">Frontend Developer</h3>
@@ -24,7 +24,7 @@ const About = () => {
           <Col md={6}>
             <Row>
               {/* UI Development */}
-              <Col md={6}>
+              <Col md={6} data-aos="fade-right">
                 <Card className="mb-3 shadow-sm">
                   <Card.Body className="text-center">
                     <FaCode size={40} className="text-primary mb-2" />

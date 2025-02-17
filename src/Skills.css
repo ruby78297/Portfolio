@@ -24,3 +24,18 @@
     max-height: 30rem;
     overflow-y: scroll;
 }
+.btn-dw {
+  width: 100% !important; 
+}
+
+@media (min-width: 992px) { 
+  .btn-dw {
+    width: 30% !important; 
+  }
+}
+
+@media (min-width: 1200px) { 
+  .btn-dw {
+    width: 20% !important; 
+  }
+}
