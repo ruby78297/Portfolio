@@ -12,7 +12,7 @@ const Hero = () => {
         backgroundSize: 'cover', // Ensures the image covers the entire section
         backgroundPosition: 'center center', // Centers the background image
         backgroundAttachment: 'fixed', // Keeps the background fixed when scrolling
-        color: 'white', // Optional: If you want to make sure text is white for better contrast
+        color: 'black', // Optional: If you want to make sure text is white for better contrast
       }}>
       <Container className="text-center" data-aos="fade-up">
         <h1 data-aos="fade-right">
